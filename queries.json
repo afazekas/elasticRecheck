@@ -39,9 +39,10 @@
         "bug": "1229475",
         "query": "@message:\"Second simultaneous read on fileno\" AND @fields.build_status:\"FAILURE\""
     },
-
-
-
+    {
+        "bug": "1229590",
+        "query": "@message:\"ISCSI volume not yet found at: vda. Will rescan & retry.  Try number: 2\" AND @fields.build_status:\"FAILURE\" AND @fields.filename:\"logs/screen-n-cpu.txt\""
+    },
     {
         "bug": "1223469",
         "query": "@message:\"with code 22\" AND @fields.filename:\"logs/screen-c-vol.txt\" AND @fields.build_status:\"FAILURE\""
